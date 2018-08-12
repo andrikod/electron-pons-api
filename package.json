@@ -12,6 +12,7 @@
     "electron-packager": "^12.1.0"
   },
   "scripts": {    
+   "launch-app": "electron .",
    "package-linux": "electron-packager . electron-pons --overwrite --asar=true --platform=linux --arch=x64 --icon=app/img/pons.png --prune=true --out=release-builds",
    "create-debian-installer": "electron-installer-debian --src release-builds/electron-pons-linux-x64/ --arch amd64 --config debian.json"
   }
