@@ -1,0 +1,26 @@
+body { 
+    font: caption; 
+    /* font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+.curved {
+    border-radius: 40px;
+    background: #03AF30;
+    padding: 20px;    
+    /* padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px; */
+}
+
+.headwordcurved {
+    border-radius: 50px;
+    background: #03C837;
+    padding: 10px;        
+}
+
+.arabcurved {
+    border-radius: 50px;
+    background: #EEEEEE;
+    padding: 5px;        
+}

@@ -1,0 +1,14 @@
+{
+  "name": "electron-pons",
+  "productName": "Electon App for Pons API",
+  "version": "1.0.0",
+  "description": "Electon App for Pons API",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^2.0.0",
+    "electron-packager": "^12.1.0"
+  }
+}
